@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MySchoolApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password:</string>
+    <string name="adm_no_lecture_id">Adm no/ Lecture ID</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="admission_no_lecture_id">Admission No/ Lecture ID</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_id" />
+    <string name="sign_up" />
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in">Log in</string>
+    <string name="course_">Course_ID</string>
+
+</resources>
