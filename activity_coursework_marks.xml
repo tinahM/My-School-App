@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CourseworkMarks">
+    <include layout="@layout/courseworktollbar"/>
+
+    <LinearLayout
+        android:id="@+id/coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course name:"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lecname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coursename"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="Lecturer's Name:"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lecname"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="CAT 1 marks:"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/cat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat1"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="CAT 2 marks:"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cat2"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:text="Exam Mark:"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="italic"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
