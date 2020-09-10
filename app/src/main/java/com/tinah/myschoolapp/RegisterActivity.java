@@ -27,4 +27,7 @@ private Button button;
         Intent intent = new Intent(this, LoginActivity.class );
         startActivity(intent);
     }
+
+    public void openLogin(View view) {
+    }
 }
